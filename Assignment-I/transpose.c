@@ -3,7 +3,7 @@
 #include <string.h>
 #include <sys/time.h>
 
-#define N 2000
+#define N 2048
 
 double a[N][N];
 double b[N][N];
@@ -21,11 +21,16 @@ double mysecond(){
 // basic transposition without code transformations
 void transposeBase(){
   int i, j;
+  // for (i = 0; i < N; ++i)
+  //   for (j = 0; j < N; ++j)
+  //     b[i][j] = a[j][i];
 
-  for (i = 0; i < N; ++i)
-    for (j = 0; j < N; ++j)
-      b[i][j] = a[j][i];
-
+  const int STRIP = 16;
+  for (int ii = 0; ii < N; ii += STRIP)
+    for (int jj = 0; jj < N; jj += STRIP)
+      for (int i = ii; i < ii + STRIP; i++)
+        for (int j = jj; j < jj + STRIP; j++)
+          b[i][j] = a[j][i];
 }
 
 
