@@ -25,7 +25,7 @@ void transposeBase(){
   //   for (j = 0; j < N; ++j)
   //     b[i][j] = a[j][i];
 
-  const int STRIP = 16;
+  const int STRIP = 32;
   for (int ii = 0; ii < N; ii += STRIP)
     for (int jj = 0; jj < N; jj += STRIP)
       for (int i = ii; i < ii + STRIP; i++)
