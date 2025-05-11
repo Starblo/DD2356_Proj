@@ -1,0 +1,4 @@
+Running with 2 processes...
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 10025143.0 ON nid001006 CANCELLED AT 2025-05-11T17:17:56 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 10025143 ON nid001006 CANCELLED AT 2025-05-11T17:17:56 DUE TO TIME LIMIT ***

@@ -1,0 +1,39 @@
+Running with 2 nodes...
+MPI rank 0 out of 2 processes.
+MPI rank 1 out of 2 processes.
+Row sum computation complete.
+Elapsed time: 10.703456 seconds
+Global sum: 32319192000000.000000
+-------------------------------
+Running with 4 nodes...
+MPI rank 0 out of 4 processes.
+MPI rank 2 out of 4 processes.
+MPI rank 1 out of 4 processes.
+MPI rank 3 out of 4 processes.
+Row sum computation complete.
+Elapsed time: 9.768310 seconds
+Global sum: 32319192000000.000000
+-------------------------------
+Running with 5 nodes...
+MPI rank 2 out of 5 processes.
+MPI rank 1 out of 5 processes.
+MPI rank 4 out of 5 processes.
+MPI rank 3 out of 5 processes.
+MPI rank 0 out of 5 processes.
+Row sum computation complete.
+Elapsed time: 9.429867 seconds
+Global sum: 32319192000000.000000
+-------------------------------
+Running with 8 nodes...
+MPI rank 0 out of 8 processes.
+MPI rank 2 out of 8 processes.
+MPI rank 7 out of 8 processes.
+MPI rank 5 out of 8 processes.
+MPI rank 4 out of 8 processes.
+MPI rank 1 out of 8 processes.
+MPI rank 6 out of 8 processes.
+MPI rank 3 out of 8 processes.
+Row sum computation complete.
+Elapsed time: 9.081685 seconds
+Global sum: 32319192000000.000000
+-------------------------------

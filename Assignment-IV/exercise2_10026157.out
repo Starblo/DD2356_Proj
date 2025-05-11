@@ -1,0 +1,118 @@
+Running with 2 processes...
+MPI rank 0 out of 2 processes.
+Row sum computation complete.
+Elapsed time: 0.061967 seconds
+Global sum: 13630455000.000000
+MPI rank 1 out of 2 processes.
+-------------------------------
+Running with 4 processes...
+MPI rank 0 out of 4 processes.
+Row sum computation complete.
+Elapsed time: 0.189872 seconds
+Global sum: 109061820000.000000
+MPI rank 1 out of 4 processes.
+MPI rank 3 out of 4 processes.
+MPI rank 2 out of 4 processes.
+-------------------------------
+Running with 5 processes...
+MPI rank 0 out of 5 processes.
+Row sum computation complete.
+Elapsed time: 0.376514 seconds
+Global sum: 213018468750.000000
+MPI rank 1 out of 5 processes.
+MPI rank 3 out of 5 processes.
+MPI rank 4 out of 5 processes.
+MPI rank 2 out of 5 processes.
+-------------------------------
+Running with 8 processes...
+MPI rank 0 out of 8 processes.
+Row sum computation complete.
+Elapsed time: 0.913826 seconds
+Global sum: 872567280000.000000
+MPI rank 1 out of 8 processes.
+MPI rank 2 out of 8 processes.
+MPI rank 3 out of 8 processes.
+MPI rank 4 out of 8 processes.
+MPI rank 6 out of 8 processes.
+MPI rank 7 out of 8 processes.
+MPI rank 5 out of 8 processes.
+-------------------------------
+Running with 10 processes...
+MPI rank 0 out of 10 processes.
+Row sum computation complete.
+Elapsed time: 1.392187 seconds
+Global sum: 1704261375000.000000
+MPI rank 1 out of 10 processes.
+MPI rank 2 out of 10 processes.
+MPI rank 3 out of 10 processes.
+MPI rank 4 out of 10 processes.
+MPI rank 5 out of 10 processes.
+MPI rank 6 out of 10 processes.
+MPI rank 7 out of 10 processes.
+MPI rank 8 out of 10 processes.
+MPI rank 9 out of 10 processes.
+-------------------------------
+Running with 20 processes...
+MPI rank 0 out of 20 processes.
+Row sum computation complete.
+Elapsed time: 5.204246 seconds
+Global sum: 13634545500000.000000
+MPI rank 8 out of 20 processes.
+MPI rank 10 out of 20 processes.
+MPI rank 11 out of 20 processes.
+MPI rank 14 out of 20 processes.
+MPI rank 15 out of 20 processes.
+MPI rank 16 out of 20 processes.
+MPI rank 2 out of 20 processes.
+MPI rank 3 out of 20 processes.
+MPI rank 4 out of 20 processes.
+MPI rank 5 out of 20 processes.
+MPI rank 6 out of 20 processes.
+MPI rank 7 out of 20 processes.
+MPI rank 9 out of 20 processes.
+MPI rank 12 out of 20 processes.
+MPI rank 13 out of 20 processes.
+MPI rank 17 out of 20 processes.
+MPI rank 18 out of 20 processes.
+MPI rank 19 out of 20 processes.
+MPI rank 1 out of 20 processes.
+-------------------------------
+Running with 25 processes...
+MPI rank 0 out of 25 processes.
+Row sum computation complete.
+Elapsed time: 9.763372 seconds
+Global sum: 26630149218750.000000
+MPI rank 1 out of 25 processes.
+MPI rank 3 out of 25 processes.
+MPI rank 4 out of 25 processes.
+MPI rank 5 out of 25 processes.
+MPI rank 6 out of 25 processes.
+MPI rank 7 out of 25 processes.
+MPI rank 8 out of 25 processes.
+MPI rank 9 out of 25 processes.
+MPI rank 10 out of 25 processes.
+MPI rank 11 out of 25 processes.
+MPI rank 12 out of 25 processes.
+MPI rank 14 out of 25 processes.
+MPI rank 15 out of 25 processes.
+MPI rank 16 out of 25 processes.
+MPI rank 17 out of 25 processes.
+MPI rank 18 out of 25 processes.
+MPI rank 19 out of 25 processes.
+MPI rank 21 out of 25 processes.
+MPI rank 23 out of 25 processes.
+MPI rank 24 out of 25 processes.
+MPI rank 13 out of 25 processes.
+MPI rank 20 out of 25 processes.
+MPI rank 22 out of 25 processes.
+MPI rank 2 out of 25 processes.
+-------------------------------
+Running with 32 processes...
+slurmstepd: error: Detected 1 oom_kill event in StepId=10026157.7. Some of the step tasks have been OOM Killed.
+srun: error: nid001038: tasks 1-4,6-8,10-13,15-17,19,21-23,25-29,31: Out Of Memory
+srun: Terminating StepId=10026157.7
+slurmstepd: error: *** STEP 10026157.7 ON nid001038 CANCELLED AT 2025-05-11T18:53:50 ***
+-------------------------------
+Elapsed time: 0.017356 seconds
+Total sum of row sums: 1703238750.000000
+Row sum computation complete.

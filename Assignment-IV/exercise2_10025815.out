@@ -1,0 +1,164 @@
+--------------------------------------------------------------------------
+The Open MPI wrapper compiler was unable to find the specified compiler
+x86_64-conda-linux-gnu-cc in your PATH.
+
+Note that this compiler was either specified at configure time or in
+one of several possible environment variables.
+--------------------------------------------------------------------------
+Running with 2 processes...
+MPI rank 1 out of 2 processes.
+MPI rank 0 out of 2 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 11.717751 seconds
+Compute time: 2.672311 seconds
+Global sum: 32319192000000.000000
+-------------------------------
+Running with 4 processes...
+MPI rank 0 out of 4 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 10.345907 seconds
+Compute time: 1.434711 seconds
+Global sum: 32319192000000.000000
+MPI rank 3 out of 4 processes.
+MPI rank 1 out of 4 processes.
+MPI rank 2 out of 4 processes.
+-------------------------------
+Running with 5 processes...
+MPI rank 0 out of 5 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 10.302079 seconds
+Compute time: 1.072636 seconds
+Global sum: 32319192000000.000000
+MPI rank 2 out of 5 processes.
+MPI rank 3 out of 5 processes.
+MPI rank 4 out of 5 processes.
+MPI rank 1 out of 5 processes.
+-------------------------------
+Running with 8 processes...
+MPI rank 2 out of 8 processes.
+MPI rank 4 out of 8 processes.
+MPI rank 6 out of 8 processes.
+MPI rank 0 out of 8 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 10.797255 seconds
+Compute time: 0.665275 seconds
+Global sum: 32319192000000.000000
+MPI rank 7 out of 8 processes.
+MPI rank 3 out of 8 processes.
+MPI rank 1 out of 8 processes.
+MPI rank 5 out of 8 processes.
+-------------------------------
+Running with 10 processes...
+MPI rank 0 out of 10 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 12.412109 seconds
+Compute time: 0.530615 seconds
+Global sum: 32319192000000.000000
+MPI rank 4 out of 10 processes.
+MPI rank 6 out of 10 processes.
+MPI rank 8 out of 10 processes.
+MPI rank 2 out of 10 processes.
+MPI rank 7 out of 10 processes.
+MPI rank 3 out of 10 processes.
+MPI rank 1 out of 10 processes.
+MPI rank 5 out of 10 processes.
+MPI rank 9 out of 10 processes.
+-------------------------------
+Running with 20 processes...
+MPI rank 0 out of 20 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 11.241561 seconds
+Compute time: 0.265109 seconds
+Global sum: 32319192000000.000000
+MPI rank 4 out of 20 processes.
+MPI rank 8 out of 20 processes.
+MPI rank 10 out of 20 processes.
+MPI rank 12 out of 20 processes.
+MPI rank 16 out of 20 processes.
+MPI rank 9 out of 20 processes.
+MPI rank 17 out of 20 processes.
+MPI rank 3 out of 20 processes.
+MPI rank 2 out of 20 processes.
+MPI rank 6 out of 20 processes.
+MPI rank 7 out of 20 processes.
+MPI rank 11 out of 20 processes.
+MPI rank 1 out of 20 processes.
+MPI rank 15 out of 20 processes.
+MPI rank 13 out of 20 processes.
+MPI rank 19 out of 20 processes.
+MPI rank 5 out of 20 processes.
+MPI rank 14 out of 20 processes.
+MPI rank 18 out of 20 processes.
+-------------------------------
+Running with 25 processes...
+MPI rank 3 out of 25 processes.
+MPI rank 6 out of 25 processes.
+MPI rank 8 out of 25 processes.
+MPI rank 10 out of 25 processes.
+MPI rank 17 out of 25 processes.
+MPI rank 20 out of 25 processes.
+MPI rank 0 out of 25 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 12.967903 seconds
+Compute time: 0.213873 seconds
+Global sum: 32319192000000.000000
+MPI rank 1 out of 25 processes.
+MPI rank 2 out of 25 processes.
+MPI rank 4 out of 25 processes.
+MPI rank 5 out of 25 processes.
+MPI rank 7 out of 25 processes.
+MPI rank 9 out of 25 processes.
+MPI rank 11 out of 25 processes.
+MPI rank 12 out of 25 processes.
+MPI rank 13 out of 25 processes.
+MPI rank 14 out of 25 processes.
+MPI rank 15 out of 25 processes.
+MPI rank 16 out of 25 processes.
+MPI rank 19 out of 25 processes.
+MPI rank 21 out of 25 processes.
+MPI rank 22 out of 25 processes.
+MPI rank 23 out of 25 processes.
+MPI rank 24 out of 25 processes.
+MPI rank 18 out of 25 processes.
+-------------------------------
+Running with 32 processes...
+MPI rank 3 out of 32 processes.
+MPI rank 5 out of 32 processes.
+MPI rank 7 out of 32 processes.
+MPI rank 8 out of 32 processes.
+MPI rank 10 out of 32 processes.
+MPI rank 11 out of 32 processes.
+MPI rank 13 out of 32 processes.
+MPI rank 15 out of 32 processes.
+MPI rank 17 out of 32 processes.
+MPI rank 19 out of 32 processes.
+MPI rank 21 out of 32 processes.
+MPI rank 23 out of 32 processes.
+MPI rank 24 out of 32 processes.
+MPI rank 26 out of 32 processes.
+MPI rank 28 out of 32 processes.
+MPI rank 29 out of 32 processes.
+MPI rank 30 out of 32 processes.
+MPI rank 31 out of 32 processes.
+MPI rank 0 out of 32 processes.
+Row sum computation complete.
+Total Execution Elapsed time: 17.458524 seconds
+Compute time: 0.206727 seconds
+Global sum: 32319192000000.000000
+MPI rank 1 out of 32 processes.
+MPI rank 2 out of 32 processes.
+MPI rank 4 out of 32 processes.
+MPI rank 6 out of 32 processes.
+MPI rank 9 out of 32 processes.
+MPI rank 12 out of 32 processes.
+MPI rank 14 out of 32 processes.
+MPI rank 16 out of 32 processes.
+MPI rank 18 out of 32 processes.
+MPI rank 20 out of 32 processes.
+MPI rank 25 out of 32 processes.
+MPI rank 27 out of 32 processes.
+MPI rank 22 out of 32 processes.
+-------------------------------
+Elapsed time: 11.094911 seconds
+Total sum of row sums: 32319192000000.000000
+Row sum computation complete.

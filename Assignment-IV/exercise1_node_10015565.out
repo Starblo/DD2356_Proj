@@ -1,0 +1,35 @@
+Running with 2 nodes...
+MPI rank 1 out of 2 processes bb.
+MPI rank 0 out of 2 processes bb.
+Simulation complete.
+Simulation complete. Total time: 0.341299 seconds
+-------------------------------
+Running with 4 nodes...
+MPI rank 3 out of 4 processes bb.
+MPI rank 2 out of 4 processes bb.
+MPI rank 1 out of 4 processes bb.
+MPI rank 0 out of 4 processes bb.
+Simulation complete.
+Simulation complete. Total time: 0.297673 seconds
+-------------------------------
+Running with 5 nodes...
+MPI rank 1 out of 5 processes bb.
+MPI rank 3 out of 5 processes bb.
+MPI rank 2 out of 5 processes bb.
+MPI rank 4 out of 5 processes bb.
+MPI rank 0 out of 5 processes bb.
+Simulation complete.
+Simulation complete. Total time: 0.350066 seconds
+-------------------------------
+Running with 8 nodes...
+MPI rank 0 out of 8 processes bb.
+MPI rank 1 out of 8 processes bb.
+MPI rank 3 out of 8 processes bb.
+MPI rank 2 out of 8 processes bb.
+MPI rank 4 out of 8 processes bb.
+MPI rank 5 out of 8 processes bb.
+MPI rank 7 out of 8 processes bb.
+MPI rank 6 out of 8 processes bb.
+Simulation complete.
+Simulation complete. Total time: 0.405029 seconds
+-------------------------------
