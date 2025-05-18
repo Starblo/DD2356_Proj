@@ -1,0 +1,61 @@
+
+Lmod is automatically replacing "cpeGNU/23.12" with "PrgEnv-gnu/8.5.0".
+
+
+Lmod is automatically replacing "cce/17.0.0" with "gcc-native/12.3".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.5.0" with "cpeGNU/23.12".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/23.12.5     2) cray-mpich/8.1.28
+
+Running serial version with matrix size 1000
+Serial computation time: 0.684082 seconds
+BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 10000
+Serial computation time: 2.091259 seconds
+BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 20000
+Serial computation time: 6.135818 seconds
+BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 40000
+Serial computation time: 23.114382 seconds
+BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 1000
+Zero-communication parallel time with 16 processes: 0.000830 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 10000
+Zero-communication parallel time with 16 processes: 0.322096 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 20000
+Zero-communication parallel time with 16 processes: 0.392650 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 40000
+Zero-communication parallel time with 16 processes: 0.807529 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 50000
+Zero-communication parallel time with 16 processes: 1.149117 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 60000
+Zero-communication parallel time with 16 processes: 1.611397 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 70000
+Zero-communication parallel time with 16 processes: 2.369493 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running parallel version with matrix size 80000
+Zero-communication parallel time with 16 processes: 3.189118 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
