@@ -1,0 +1,52 @@
+Unloading the cpe module is insufficient to restore the system defaults.
+Please run 'source
+/opt/cray/pe/cpe/23.12/restore_lmod_system_defaults.[csh|sh]'. 
+Lmod has detected the following error: Cannot load module
+"perftools-base/23.12.0" because these module(s) are loaded:
+   papi
+
+While processing the following module(s):
+    Module fullname         Module Filename
+    ---------------         ---------------
+    perftools-base/23.12.0  /opt/cray/pe/lmod/modulefiles/core/perftools-base/23.12.0.lua
+    cpe/23.12               /opt/cray/pe/lmod/modulefiles/core/cpe/23.12.lua
+    PDC/23.12               /pdc/software/modules/PDC/23.12.lua
+
+Running serial version with matrix size 1000
+Serial computation time: 0.623988 seconds
+BLAS matrix-vector multiplication complete.
+Running parallel version with matrix size 1000
+Parallel computation time with 16 processes: 0.012229 seconds
+MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 10000
+Serial computation time: 1.695851 seconds
+BLAS matrix-vector multiplication complete.
+Running parallel version with matrix size 10000
+Parallel computation time with 16 processes: 1.096414 seconds
+MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 20000
+Serial computation time: 4.741010 seconds
+BLAS matrix-vector multiplication complete.
+Running parallel version with matrix size 20000
+Parallel computation time with 16 processes: 3.428899 seconds
+MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 40000
+Serial computation time: 17.326785 seconds
+BLAS matrix-vector multiplication complete.
+Running parallel version with matrix size 40000
+Parallel computation time with 16 processes: 12.627133 seconds
+MPI BLAS matrix-vector multiplication complete.
+----------------------------------------
+Running serial version with matrix size 50000
+srun: error: nid001038: task 0: Segmentation fault (core dumped)
+srun: Terminating StepId=10185755.8
+Running parallel version with matrix size 50000
+srun: error: nid001038: task 0: Segmentation fault
+srun: Terminating StepId=10185755.9
+slurmstepd: error: *** STEP 10185755.9 ON nid001038 CANCELLED AT 2025-05-18T08:23:15 ***
+srun: error: nid001038: tasks 1-15: Terminated
+srun: Force Terminated StepId=10185755.9
+----------------------------------------

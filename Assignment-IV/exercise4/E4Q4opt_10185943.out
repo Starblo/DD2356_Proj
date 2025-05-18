@@ -1,0 +1,29 @@
+Unloading the cpe module is insufficient to restore the system defaults.
+Please run 'source
+/opt/cray/pe/cpe/23.12/restore_lmod_system_defaults.[csh|sh]'. 
+Lmod has detected the following error: Cannot load module
+"perftools-base/23.12.0" because these module(s) are loaded:
+   papi
+
+While processing the following module(s):
+    Module fullname         Module Filename
+    ---------------         ---------------
+    perftools-base/23.12.0  /opt/cray/pe/lmod/modulefiles/core/perftools-base/23.12.0.lua
+    cpe/23.12               /opt/cray/pe/lmod/modulefiles/core/cpe/23.12.lua
+    PDC/23.12               /pdc/software/modules/PDC/23.12.lua
+
+Serial computation time: 9.331829 seconds
+BLAS matrix-vector multiplication complete.
+Zero-communication parallel time with 8 processes: 1.514407 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+[Score-P] src/services/timer/SCOREP_Timer.c:390: Warning: Calculated timer (tsc) frequencies differ from average frequency (2245807057 Hz) by more than 22458 Hz. Consider using a timer with a fixed frequency like gettimeofday or clock_gettime. Prolonging the measurement duration might mitigate the frequency variations.
+Zero-communication parallel time with 8 processes: 1.351341 seconds
+Zero-communication MPI BLAS matrix-vector multiplication complete.
+rank[0]:	 frequency = 2245788246 Hz
+rank[1]:	 frequency = 2245804169 Hz
+rank[2]:	 frequency = 2245831940 Hz (outlier)
+rank[3]:	 frequency = 2245789088 Hz
+rank[4]:	 frequency = 2245812669 Hz
+rank[5]:	 frequency = 2245825032 Hz
+rank[6]:	 frequency = 2245818548 Hz
+rank[7]:	 frequency = 2245786766 Hz
