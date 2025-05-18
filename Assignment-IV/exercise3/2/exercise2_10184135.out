@@ -1,0 +1,52 @@
+Unloading the cpe module is insufficient to restore the system defaults.
+Please run 'source
+/opt/cray/pe/cpe/23.12/restore_lmod_system_defaults.[csh|sh]'. 
+Lmod has detected the following error: Cannot load module
+"perftools-base/23.12.0" because these module(s) are loaded:
+   papi
+
+While processing the following module(s):
+    Module fullname         Module Filename
+    ---------------         ---------------
+    perftools-base/23.12.0  /opt/cray/pe/lmod/modulefiles/core/perftools-base/23.12.0.lua
+    cpe/23.12               /opt/cray/pe/lmod/modulefiles/core/cpe/23.12.lua
+    PDC/23.12               /pdc/software/modules/PDC/23.12.lua
+
+MPI rank 0 out of 16 processes.
+Row sum computation complete.
+Elapsed time: 22.046149 seconds
+Global sum: 32319192000000.000000
+MPI rank 1 out of 16 processes.
+MPI rank 2 out of 16 processes.
+MPI rank 3 out of 16 processes.
+MPI rank 7 out of 16 processes.
+MPI rank 11 out of 16 processes.
+MPI rank 15 out of 16 processes.
+MPI rank 4 out of 16 processes.
+MPI rank 5 out of 16 processes.
+MPI rank 6 out of 16 processes.
+MPI rank 13 out of 16 processes.
+MPI rank 14 out of 16 processes.
+MPI rank 9 out of 16 processes.
+MPI rank 10 out of 16 processes.
+MPI rank 12 out of 16 processes.
+MPI rank 8 out of 16 processes.
+MPI rank 0 out of 16 processes.
+Row sum computation complete.
+Elapsed time: 20.392058 seconds
+Global sum: 32319192000000.000000
+MPI rank 1 out of 16 processes.
+MPI rank 3 out of 16 processes.
+MPI rank 11 out of 16 processes.
+MPI rank 2 out of 16 processes.
+MPI rank 7 out of 16 processes.
+MPI rank 15 out of 16 processes.
+MPI rank 5 out of 16 processes.
+MPI rank 6 out of 16 processes.
+MPI rank 4 out of 16 processes.
+MPI rank 13 out of 16 processes.
+MPI rank 14 out of 16 processes.
+MPI rank 9 out of 16 processes.
+MPI rank 10 out of 16 processes.
+MPI rank 8 out of 16 processes.
+MPI rank 12 out of 16 processes.
